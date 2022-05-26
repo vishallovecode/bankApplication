@@ -1,0 +1,28 @@
+.container {
+    height: 100%;
+    display:'flex';
+    width: 100%;
+    h2 {
+        text-align:center;
+        padding-top: 30px;
+      }
+      .sub-container {
+           display: flex;
+           width: 100%;
+      }
+      .p-container{
+        display: flex;
+        justify-content: flex-end;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+    }
+    .body-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+      
+}

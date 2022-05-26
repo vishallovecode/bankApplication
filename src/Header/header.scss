@@ -1,0 +1,16 @@
+.header {
+    justify-content: space-between;
+    width: 90%;
+    display:flex;
+
+    .filter {
+        display: flex;
+        margin: 40px;
+        
+    }
+    .title {
+        margin: 35px;
+        font-size: 23px;
+        font-weight: 500;
+    }
+}

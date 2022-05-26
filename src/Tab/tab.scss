@@ -1,0 +1,43 @@
+
+    .tab {
+        height:90%;
+        margin-left: 10px;
+        width: 20em;
+        border: 1px #D5DADF solid;
+        h2 {
+            text-align: center;
+        }
+        .tab-item {
+            background: white;
+            border: 1px #D5DADF solid;
+            border-left: 5px solid #D5DADF;
+            box-shadow: 0 2px 3px rgba(213,218,223,0.35);
+            padding: 30px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all .2s ease;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 1.3em;
+            letter-spacing: 0.02em;
+            color: #314f8d;
+            margin: 0px;
+          }
+          
+          .tab-item:hover, .tab-item.active {
+            box-shadow: 0px 3px 3px 2px rgba(213,218,223,0.35);
+            border-left: 5px solid #28AB26;
+          }
+          
+    
+ 
+     
+          
+
+          
+
+          
+    }    
+
+  

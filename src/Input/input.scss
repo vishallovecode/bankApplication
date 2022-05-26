@@ -1,0 +1,20 @@
+.in-container  {
+    display: flex;
+    .inputContainer {
+ 
+        height: 2.5em;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1.5em;
+        overflow: hidden;
+        flex-shrink: 0;
+        border: 1px solid #e6e6e6;
+    
+    }
+    span {
+         margin:10px;
+    }
+}
+

@@ -1,0 +1,20 @@
+.bankDetails {
+display: flex;
+flex-direction: column;
+top: 20px;
+padding: 12px;
+position: relative;
+margin: 10px;
+height: 160px;
+align-items: flex-start;
+background: #FFFFFF;
+box-shadow: 0px 0px 0px rgba(48, 49, 51, 0.04), 0px 4px 8px rgba(48, 49, 51, 0.08);
+border-radius: 8px;
+margin: auto;
+.s-con {
+    display: flex;
+}
+span {
+padding: 5px;
+}
+}
