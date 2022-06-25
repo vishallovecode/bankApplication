@@ -8,7 +8,6 @@ import { debounce } from '../Utils';
 import './home.scss';
 
 const HomeContainer = props => {
-    // const [bankList , setBankList]= useState([]);
     const [selectedCity, setSelectedCity] = useState({ name: 'MUMBAI', id: 1 });
     const [selectedCategory, setSelectedCategory] = useState({});
     const [rows, setRows] = useState([]);
@@ -29,7 +28,7 @@ const HomeContainer = props => {
         setUpdatedRows();
     }, [currentPage]);
 
-    // update table rows
+    //  this  will update table rows
     const setUpdatedRows = () => {
         const UpdatedbankList = [...bankList];
         setTotalRecord(UpdatedbankList.length);
