@@ -9,7 +9,7 @@ const Dropdown = props => {
         handleDropdownChange(data);
         toggleDropdown();
     };
-
+    // toggle dropdown
     const toggleDropdown = () => {
         setDropdownActive(!isDropdownActive);
     };
